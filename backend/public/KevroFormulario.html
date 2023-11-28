@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMPRA DEL ALBÚM ("DAMN")</title>
+    <link rel="stylesheet" href="Kevro.css">
+    
+</head>
+<body>
+   <div class="form">
+    <form class="formulario" action="procesar_compra.php" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+    
+        <label for="direccion">Dirección:</label>
+        <textarea id="direccion" name="direccion" required></textarea>
+    
+       <label for="metodo_pago">Método de pago:</label>
+        <select id="metodo_pago" name="metodo_pago" required>
+          <option value="tarjeta">Tarjeta de crédito</option>
+          <option value="paypal">PayPal</option>
+       </select>
+    
+      <button type="submit">Comprar disco de Kendrick Lamar ("DAMN")</button>
+    </form>
+   </div>
+    
+</body>
+
+<footer>
+    <p>&copy; 2023 Kevro. Todos los derechos reservados.</p>
+  </footer>
+</html>
