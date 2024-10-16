@@ -1,6 +1,10 @@
 {
+<<<<<<< HEAD
     // Use IntelliSense para saber los atributos posibles.
     // Mantenga el puntero para ver las descripciones de los existentes atributos.
+=======
+
+>>>>>>> 9d1b5ac13041750434f7a756f6f4765e682db55e
     // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [

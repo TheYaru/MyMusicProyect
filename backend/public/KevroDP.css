@@ -1,0 +1,78 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #26282d;
+}
+
+.confirmation-container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #bdbdbd;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  color: #b1ffc7;
+  text-shadow: 2px 2px 2px #000; /* Agregamos un efecto de relieve */
+}
+
+p {
+  font-size: 18px;
+}
+
+.circle-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  background-color: #b1ffc7;
+  border-radius: 50%;
+  margin: 0 10px;
+  animation: moveCircle 3s linear infinite, changeColor 2s linear alternate infinite;
+}
+
+@keyframes moveCircle {
+  0% {
+      transform: translateY(0);
+  }
+  100% {
+      transform: translateY(-100vh);
+  }
+}
+
+@keyframes changeColor {
+  0% {
+      background-color: #b1ffc7;
+  }
+  100% {
+      background-color: #20cc51;
+  }
+}
+
+.circle2 {
+  width: 50px;
+  height: 50px;
+  background-color: #b1ffc7;
+  border-radius: 50%;
+  margin: 0 10px;
+  animation: moveCircleReverse 3s linear infinite, changeColor 2s linear alternate infinite;
+}
+
+@keyframes moveCircleReverse {
+  0% {
+      transform: translateY(0);
+  }
+  100% {
+      transform: translateY(+100vh); 
+}
+
+}
